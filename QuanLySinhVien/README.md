@@ -25,10 +25,10 @@
 ## Câu 3:
 ### Tạo lớp StudentTest, chứa Main kiểm tra chức năng lớp Student
 ### Tạo Menu chọn như sau
-#### a. Chọn 1: Nhập vào n sinh viên (n là số lượng sinh viên, được nhập từ bàn phím)
-#### b. Chọn 2: Hiển thị thông tin tất cả các sinh viên ra màn hình
-#### c. Chọn 3: Hiển thị sinh viên có điểm trung bình cao nhất và sinh viên có điểm trung bình thấp nhất
-#### d. Chọn 4: Tìm kiếm sinh viên theo mã sinh viên. Nhập vào mã sinh viên. Nếu tồn tại sinh viên
+* Chọn 1: Nhập vào n sinh viên (n là số lượng sinh viên, được nhập từ bàn phím)
+* Chọn 2: Hiển thị thông tin tất cả các sinh viên ra màn hình
+* Chọn 3: Hiển thị sinh viên có điểm trung bình cao nhất và sinh viên có điểm trung bình thấp nhất
+* Chọn 4: Tìm kiếm sinh viên theo mã sinh viên. Nhập vào mã sinh viên. Nếu tồn tại sinh viên
 ### có mã đó thì in ra màn hình thông tin sinh viên. Nếu không tồn tại thì in ra: Không có sinh
 ### viên nào có mã là <giá trị của mã sinh viên>
 #### e. Chọn 5: Hiển thị tất cả các sinh viên theo thứ tự tên trong bảng chữ cái (A->Z)
