@@ -1,11 +1,11 @@
 # JavaBasic
-## Câu 1:
+ ## Câu 1:
 ### Tạo lớp Person chứa thông tin
 #### - Tên
 #### - Giới tính
 #### - Ngày sinh
 #### - Địa chỉ
-### Với đầy đủ hàm get set, constructor không tham số, constructor đầy đủ tham số
+### Với đầy đủ hàm `get set`, constructor không tham số, constructor đầy đủ tham số
 #### 1. Viết pương thức inputInfo(), nhập thông tin Person từ bàn phím
 #### 2. Viết phương thức showInfo(), hiển thị tất cả thông tin Person
 ## Câu 2:
