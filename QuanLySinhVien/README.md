@@ -1,21 +1,27 @@
 # JavaBasic
  ## Câu 1:
 ### Tạo lớp Person chứa thông tin
-#### - Tên
-#### - Giới tính
-#### - Ngày sinh
-#### - Địa chỉ
+> **Tên**
+>
+> **Giới tính**
+>
+> **Ngày sinh**
+>
+> **Địa chỉ**
+>
 ### Với đầy đủ hàm `get set`, constructor không tham số, constructor đầy đủ tham số
-#### 1. Viết pương thức inputInfo(), nhập thông tin Person từ bàn phím
-#### 2. Viết phương thức showInfo(), hiển thị tất cả thông tin Person
+1. Viết pương thức ***inputInfo()***, nhập thông tin Person từ bàn phím
+2. Viết phương thức ***showInfo()***, hiển thị tất cả thông tin Person
 ## Câu 2:
-### Tạo lớp Student thừa kế Person, lưu trữ các thông tin một sinh viên
+```php
+"Tạo lớp Student thừa kế Person, lưu trữ các thông tin một sinh viên")
+```
 #### - Mã sinh viên: chứa 8 kí tự
-#### - Điểm trung bình: từ 0.0 – 10.0
+#### - Điểm trung bình: từ `0.0 – 10.0`
 #### - Email: phải chứa kí tự @ và không tồn tại khoảng trắng
-### 1. Override phương thức inputInfo(), nhập thông tin Student từ bàn phím
-### 2. Override phương thức showInfo(), hiển thị tất cả thông tin Student
-### 3. Viết phương thức xét xem Student có được học bổng không? Điểm trung bình trên 8.0 là được học bổng
+> 1. Override phương thức inputInfo(), nhập thông tin Student từ bàn phím
+> 2. Override phương thức showInfo(), hiển thị tất cả thông tin Student
+> 3. Viết phương thức xét xem Student có được học bổng không? Điểm trung bình trên 8.0 là được học bổng
 ## Câu 3:
 ### Tạo lớp StudentTest, chứa Main kiểm tra chức năng lớp Student
 ### Tạo Menu chọn như sau
