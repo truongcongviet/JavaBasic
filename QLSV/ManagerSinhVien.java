@@ -77,23 +77,32 @@ public class ManagerSinhVien {
             int number = sc.nextInt();
             danhsachsv.get(number).displaySinhVien();
            
-                System.out.println("vị trí cần chỉnh sửa: /n 1: tên/n 2: tuổi/n 3: giới tính/n 4: lớp/n 5: giáo viên");
+                System.out.println("vị trí cần chỉnh sửa: \n 1: tên\n 2: tuổi\n 3: giới tính\n 4: lớp\n 5: giáo viên");
                 int number1 = sc.nextInt();
                 switch (number1) {
                     case 1:
                         System.out.println("Nhập giá trị cần chỉnh: ");
                         String ten1 = sc.nextLine();
-                        danhsachsv.get(number).ten.replaceAll("[a,z]", ten1);
+                        if(ten1.equals("")){
+                            ten1 =sc.nextLine();
+                        }
+                        danhsachsv.get(number).ten=ten1;
                         break;
                     case 2:
                         System.out.println("Nhập giá trị cần chỉnh: ");
                         String giotinh1 = sc.nextLine();
-                        danhsachsv.get(number).gioiTinh.replaceAll("[a,z]", giotinh1);
+                        if(giotinh1.equals("")){
+                            giotinh1 =sc.nextLine();
+                        }
+                        danhsachsv.get(number).gioiTinh = giotinh1;
                         break;
                     case 3:
                         System.out.println("Nhập giá trị cần chỉnh: ");
                         String class1 = sc.nextLine();
-                        danhsachsv.get(number).lop.replaceAll("[a,z]", class1);
+                        if(class1.equals("")){
+                           class1 =sc.nextLine();
+                        }
+                        danhsachsv.get(number).lop =class1;
                         break;
                     case 4:
                         System.out.println("Nhập giá trị cần chỉnh: ");
@@ -101,7 +110,7 @@ public class ManagerSinhVien {
                         if(giaoVien1.equals("")){
                             giaoVien1 =sc.nextLine();
                         }
-                        danhsachsv.get(number).giaoVien.replaceAll("[a,z]", giaoVien1);
+                        danhsachsv.get(number).giaoVien = giaoVien1;
                         break;
                     default:
                         System.out.println("Error");
